@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventorySystem.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240124001231_AddMigrationIdentity")]
-    partial class AddMigrationIdentity
+    [Migration("20240123032642_AddMigrationIdentity2")]
+    partial class AddMigrationIdentity2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
