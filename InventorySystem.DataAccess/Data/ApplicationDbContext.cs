@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using InventorySystem.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace InventorySystem.DataAccess.Data
@@ -9,5 +10,7 @@ namespace InventorySystem.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Store> Stores { get; set; }
     }
 }
