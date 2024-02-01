@@ -17,7 +17,7 @@ namespace InventorySystem.DataAccess.Repository.IRepository
             string includeProperty = null
             );
 
-        IEnumerable<T> GetFirt(
+        IEnumerable<T> GetFirst(
            Expression<Func<T, bool>> filter = null,
            string includeProperty = null
            );
